@@ -22,16 +22,18 @@
 
 
         &__my-image {
-            width: 25vw;
+            width: 20vw;
+            height: 60vh;
             aspect-ratio: 1;
-            border-radius: 50%;
+            border-radius: 10%;
             border: var(--yellow-theme-main-color) solid 5px;
             height: 25vw;
             position: relative;
             right: 0;
             top: 0;
-            overflow: hidden;
+           overflow: hidden;
             margin-bottom: 100px;
+        
 
             box-shadow:
                 rgba(0, 0, 0, 0.25) 0px 54px 55px,
@@ -43,8 +45,8 @@
 
 
             img {
-                width: 25vw;
-                height: 25vw;
+                width: 20vw;
+                height: 55vh;
                 margin: 0;
                 position: absolute;
                 top: 50%;
