@@ -11,7 +11,7 @@ import pos from "../../assets/imgs/pos.png";
 import shoe from "../../assets/imgs/shoe.png";
 import portfolio from "../../assets/imgs/portfolio.png";
 import img06 from "../../assets/imgs/img06.jpeg";
-import img07 from "../../assets/imgs/img07.jpeg";
+import rsWeb from "../../assets/imgs/rsWeb.png";
 
 function Projects() {
   const projectData = [
@@ -46,6 +46,13 @@ function Projects() {
       description: "A restaurant management system built with Java EE for the backend and HTML, CSS, JavaScript, Bootstrap, and AJAX for a responsive frontend.",
       image: pos,
       linke: "https://github.com/MavithaShehar/internet_technology_Assignment_11-Back_End-with-Java_EE"
+    }
+    ,
+    {
+      title: "Rose jasmine E-comes WEB",
+      description: "Rose Jasmine E-commerce web system created using the MERN stack and JWT authentication. It is an e-commerce website for selling flowers, cakes, and gifts.",
+      image: rsWeb,
+      linke: "https://github.com/MavithaShehar/Rose_Jasmine-Flower_Shop-web.git"
     }
 
 
